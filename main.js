@@ -21,3 +21,11 @@ function updatePrice(){
 
     totalPrice.textContent = price.toFixed(2)
 }
+
+
+//Task 4
+orderButton.addEventListener(`click`, function(){
+const quantity = quantityinput.value;
+const priceTotal = totalPrice.textContent;
+
+})
